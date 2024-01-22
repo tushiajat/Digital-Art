@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+ 
+ /* common code start */
+.text-secondary{
+    color: #696969;
+}
+
+
+ /* common code end */
+ 
+ 
+ .btn-b{
+    background-color: #43C7D3;
+    transition: .5s all;
+}
+
+ .btn-b .icon{
+    color: #43C7D3;
+}
+
+.btn-b:hover{
+
+    
+    box-shadow: 0  27px  30px  -20px  #000000 !important;
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+    color: #000000 !important;
+
+}
+
+.btn-3{
+    background-color: #fff;
+}
+
+.btn-3:hover{
+    background-color: #43C7D3 !important;
+}
+
+/* header section start */
+.hero-section{
+    background-image: linear-gradient(rgba(255,255,255,.6),rgba(255,255,255,.6)), url(../img/mbr-1920x1280.jpg);
+    background-size: cover;
+    height: 100vh; 
+    
+  
+}
+
+.content{
+    width: 40%;
+    margin-left: 30%;
+   
+}
+
+h2{
+    font-weight: 500;
+}
+
+
+.header-content{
+    padding-top: 5%;
+}
+/* header section end */
+/* about section start */
+.about-section .about-img{
+    transition: .5s;
+}
+.about-section .about-img:hover{
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(-1deg);
+    
+}
+/* about section end */
+
+/* card section start */
+
+
+
+
+.card-section .card-bg{
+    background-color: #A7D540;
+}
+
+.card-section .card-img-1{
+    transition: .5s;
+}
+
+.card-section .card-img-1:hover{
+   
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(-1deg);
+   
+}
+
+.card-section .card-img-2{
+    transition: .5s;
+}
+
+.card-section .card-img-2:hover{
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(1deg);
+    
+}
+
+.card-section  .price-card{
+    background-color: #EEEEEE;
+}
+/* card section end */
+
+/* digital section start */
+
+/* digital section end */
+/* question section start */
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../img/angle2.png) !important;
+
+}
+
+  .accordion-button::after{
+    background-image: url(../img/anglr.png);
+    
+    
+  }   
+
+/* question section end */
+
+/* team section start */
+.team-img {
+    height: 397px;
+}
+/* team section end */
+
+/* follow section start */
+
+
+
+.s-icon:hover{
+    background-color: #fff;
+    color: #000000 !important;
+}
+
+/* follow section end*/
+
+/* clint section start */
+.client-img img{
+    width: 80% !important;
+}
+
+/* clint section end */
+
+
+
+.mass-img img{
+
+    height: 350px;
+}
